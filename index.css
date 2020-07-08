@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+    * {
+        font-family: 'Roboto Mono', monospace;
+        /* border: 1px solid blueviolet; */
+        max-width: 100%;
+
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    button {
+        border-radius: 10px;
+    }
+
+    .navButtons {
+        display: inline-block;
+        margin: 2% 25%;
+        width: 50%;
+        /* background-color: pink; */
+
+}
+    .navButtons .plan {
+        background: #FF764E;
+        margin: 1% 15% 1% 5%;
+        width: 15%;
+
+    }
+
+    .navButtons .learn {
+        background: #5ED3EB;
+        margin: 0 auto;
+        width: 18%;
+    }
+
+    .navButtons .get {
+        background: #FFCD69;
+        margin: 1% 5% 1% 15%;
+        width: 15%;
+    }
+
+  .sierra {
+       display: inline-block;
+       margin: 5% 7% 3% 8%;
+       width:150px;
+      
+   }
+.sierra img {
+    border-radius: 50%;
+}
+
+   .parkGuide {
+       display: inline-block;
+       padding: 5%;
+       margin: 
+   }
+
+.parkGuide h1 {
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+}
+
+.parkGuide p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.parkGuide .firstP {
+}
+
+.parkGuide .secondP {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.yoseDescription {
+    background-color:#DDB9A3;
+    margin: 2% 3%;
+}
+
+.yoseDescription p {
+    color: white;
+    padding: 1%;
+}
+
+.imgIcons {
+    display: inline-block;
+    margin: 0% 10% 3% 30%;
+    width: 40%;
+    text-align: center;
+    
+}
+
+.imgIcons img {
+    width: 45%;
+}
+
+span {
+    font-weight: bold;
+}
+
+.sierraWide img {
+    height: 30vh;
+    /* width: 100%; */
+}
+
+.sierraWide {
+    display: inline-block;
+    width: 100%;
+}
+
+footer {
+      background-color: #FAF0E6;
+}
+
+.bottomNav {
+    display: inline-block;
+    margin: 2% 25%;
+    width: 50%;
+
+}
+.bottomNav .plan {
+    background: #FF764E;
+    margin: 1% 15% 1% 5%;
+    width: 15%;
+
+}
+
+.bottomNav .learn {
+    background: #5ED3EB;
+    margin: 0 auto;
+    width: 18%;
+}
+
+.bottomNav .get {
+    background: #FFCD69;
+    margin: 1% 5% 1% 15%;
+    width: 15%;
+}
