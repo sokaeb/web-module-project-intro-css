@@ -75,7 +75,7 @@ nav a {
     color: white;
     margin: 2% 5%;
     padding: 1% 2%;
-    border-radius: 20%;
+    border-radius: 50px;
     /* border: 1px solid red; */
     transition-duration: 0.3s;
 }
@@ -209,18 +209,26 @@ span {
     font-weight: bold;
 }
 
-.footer .sierraWide {
-    background-image: url('assets/footer_img.jpg');
-    display: inline-block;
-    /* background-size: cover; */
-    /* background-attachment: fixed; */
-    /* background-repeat: no-repeat; */
+.sierraWide {
+    /* border: 2px solid black; */
+    position: absolute;
+    z-index: 2;
+}
+
+.footer {
+    background-color: #F9E7DC;
+    padding: 3%;
+    width: 100%;
+    /* border: 1px solid green; */
+    position: absolute;
+    z-index: 9;
 
 }
 
-footer {
-      background-color: #F9E7DC;
-}
+
+
+
+
 
 
 
